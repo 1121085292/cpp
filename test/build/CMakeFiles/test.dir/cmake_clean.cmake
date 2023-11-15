@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test.dir/timing.cc.obj"
-  "CMakeFiles/test.dir/timing.cc.obj.d"
+  "CMakeFiles/test.dir/virtual_destructor.cc.obj"
+  "CMakeFiles/test.dir/virtual_destructor.cc.obj.d"
   "libtest.dll.a"
   "test.exe"
   "test.exe.manifest"

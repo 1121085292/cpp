@@ -128,29 +128,29 @@ test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-timing.obj: timing.cc.obj
-.PHONY : timing.obj
+virtual_destructor.obj: virtual_destructor.cc.obj
+.PHONY : virtual_destructor.obj
 
 # target to build an object file
-timing.cc.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/timing.cc.obj
-.PHONY : timing.cc.obj
+virtual_destructor.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/virtual_destructor.cc.obj
+.PHONY : virtual_destructor.cc.obj
 
-timing.i: timing.cc.i
-.PHONY : timing.i
+virtual_destructor.i: virtual_destructor.cc.i
+.PHONY : virtual_destructor.i
 
 # target to preprocess a source file
-timing.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/timing.cc.i
-.PHONY : timing.cc.i
+virtual_destructor.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/virtual_destructor.cc.i
+.PHONY : virtual_destructor.cc.i
 
-timing.s: timing.cc.s
-.PHONY : timing.s
+virtual_destructor.s: virtual_destructor.cc.s
+.PHONY : virtual_destructor.s
 
 # target to generate assembly for a file
-timing.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/timing.cc.s
-.PHONY : timing.cc.s
+virtual_destructor.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/virtual_destructor.cc.s
+.PHONY : virtual_destructor.cc.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... test
-	@echo ... timing.obj
-	@echo ... timing.i
-	@echo ... timing.s
+	@echo ... virtual_destructor.obj
+	@echo ... virtual_destructor.i
+	@echo ... virtual_destructor.s
 .PHONY : help
 
 
