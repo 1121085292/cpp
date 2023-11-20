@@ -81,7 +81,8 @@
         "map": "cpp",
         "set": "cpp",
         "hash_map": "cpp",
-        "cinttypes": "cpp"
+        "cinttypes": "cpp",
+        "codecvt": "cpp"
     },
     "cmake.sourceDirectory": "D:/c++/eigen_test"
 }

@@ -128,29 +128,29 @@ test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-timer.obj: timer.cc.obj
-.PHONY : timer.obj
+optional.obj: optional.cc.obj
+.PHONY : optional.obj
 
 # target to build an object file
-timer.cc.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/timer.cc.obj
-.PHONY : timer.cc.obj
+optional.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/optional.cc.obj
+.PHONY : optional.cc.obj
 
-timer.i: timer.cc.i
-.PHONY : timer.i
+optional.i: optional.cc.i
+.PHONY : optional.i
 
 # target to preprocess a source file
-timer.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/timer.cc.i
-.PHONY : timer.cc.i
+optional.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/optional.cc.i
+.PHONY : optional.cc.i
 
-timer.s: timer.cc.s
-.PHONY : timer.s
+optional.s: optional.cc.s
+.PHONY : optional.s
 
 # target to generate assembly for a file
-timer.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/timer.cc.s
-.PHONY : timer.cc.s
+optional.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/optional.cc.s
+.PHONY : optional.cc.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... test
-	@echo ... timer.obj
-	@echo ... timer.i
-	@echo ... timer.s
+	@echo ... optional.obj
+	@echo ... optional.i
+	@echo ... optional.s
 .PHONY : help
 
 
