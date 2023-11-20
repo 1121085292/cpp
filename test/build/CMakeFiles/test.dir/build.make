@@ -68,28 +68,28 @@ include CMakeFiles/test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test.dir/flags.make
 
-CMakeFiles/test.dir/virtual_destructor.cc.obj: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/virtual_destructor.cc.obj: D:/c++/test/virtual_destructor.cc
-CMakeFiles/test.dir/virtual_destructor.cc.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\c++\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/virtual_destructor.cc.obj"
-	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/virtual_destructor.cc.obj -MF CMakeFiles\test.dir\virtual_destructor.cc.obj.d -o CMakeFiles\test.dir\virtual_destructor.cc.obj -c D:\c++\test\virtual_destructor.cc
+CMakeFiles/test.dir/timer.cc.obj: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/timer.cc.obj: D:/c++/test/timer.cc
+CMakeFiles/test.dir/timer.cc.obj: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\c++\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/timer.cc.obj"
+	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/timer.cc.obj -MF CMakeFiles\test.dir\timer.cc.obj.d -o CMakeFiles\test.dir\timer.cc.obj -c D:\c++\test\timer.cc
 
-CMakeFiles/test.dir/virtual_destructor.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test.dir/virtual_destructor.cc.i"
-	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c++\test\virtual_destructor.cc > CMakeFiles\test.dir\virtual_destructor.cc.i
+CMakeFiles/test.dir/timer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test.dir/timer.cc.i"
+	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c++\test\timer.cc > CMakeFiles\test.dir\timer.cc.i
 
-CMakeFiles/test.dir/virtual_destructor.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test.dir/virtual_destructor.cc.s"
-	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c++\test\virtual_destructor.cc -o CMakeFiles\test.dir\virtual_destructor.cc.s
+CMakeFiles/test.dir/timer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test.dir/timer.cc.s"
+	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c++\test\timer.cc -o CMakeFiles\test.dir\timer.cc.s
 
 # Object files for target test
 test_OBJECTS = \
-"CMakeFiles/test.dir/virtual_destructor.cc.obj"
+"CMakeFiles/test.dir/timer.cc.obj"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
-test.exe: CMakeFiles/test.dir/virtual_destructor.cc.obj
+test.exe: CMakeFiles/test.dir/timer.cc.obj
 test.exe: CMakeFiles/test.dir/build.make
 test.exe: CMakeFiles/test.dir/linkLibs.rsp
 test.exe: CMakeFiles/test.dir/objects1.rsp

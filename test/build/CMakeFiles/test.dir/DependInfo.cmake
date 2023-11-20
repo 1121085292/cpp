@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/c++/test/virtual_destructor.cc" "CMakeFiles/test.dir/virtual_destructor.cc.obj" "gcc" "CMakeFiles/test.dir/virtual_destructor.cc.obj.d"
+  "D:/c++/test/timer.cc" "CMakeFiles/test.dir/timer.cc.obj" "gcc" "CMakeFiles/test.dir/timer.cc.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
