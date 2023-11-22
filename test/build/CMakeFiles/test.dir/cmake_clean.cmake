@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test.dir/optional.cc.obj"
-  "CMakeFiles/test.dir/optional.cc.obj.d"
+  "CMakeFiles/test.dir/async.cc.obj"
+  "CMakeFiles/test.dir/async.cc.obj.d"
   "libtest.dll.a"
   "test.exe"
   "test.exe.manifest"

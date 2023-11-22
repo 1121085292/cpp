@@ -128,29 +128,29 @@ test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-optional.obj: optional.cc.obj
-.PHONY : optional.obj
+async.obj: async.cc.obj
+.PHONY : async.obj
 
 # target to build an object file
-optional.cc.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/optional.cc.obj
-.PHONY : optional.cc.obj
+async.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/async.cc.obj
+.PHONY : async.cc.obj
 
-optional.i: optional.cc.i
-.PHONY : optional.i
+async.i: async.cc.i
+.PHONY : async.i
 
 # target to preprocess a source file
-optional.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/optional.cc.i
-.PHONY : optional.cc.i
+async.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/async.cc.i
+.PHONY : async.cc.i
 
-optional.s: optional.cc.s
-.PHONY : optional.s
+async.s: async.cc.s
+.PHONY : async.s
 
 # target to generate assembly for a file
-optional.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/optional.cc.s
-.PHONY : optional.cc.s
+async.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/async.cc.s
+.PHONY : async.cc.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... test
-	@echo ... optional.obj
-	@echo ... optional.i
-	@echo ... optional.s
+	@echo ... async.obj
+	@echo ... async.i
+	@echo ... async.s
 .PHONY : help
 
 

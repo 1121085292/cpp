@@ -82,7 +82,12 @@
         "set": "cpp",
         "hash_map": "cpp",
         "cinttypes": "cpp",
-        "codecvt": "cpp"
+        "codecvt": "cpp",
+        "forward_list": "cpp",
+        "executor": "cpp",
+        "io_context": "cpp",
+        "netfwd": "cpp",
+        "timer": "cpp"
     },
     "cmake.sourceDirectory": "D:/c++/eigen_test"
 }
