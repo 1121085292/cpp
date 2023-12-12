@@ -1,0 +1,3 @@
+C:\Users\86176\Downloads\mingw64\bin\cmake.exe -E rm -f CMakeFiles\multi_sensor_mot.dir/objects.a
+C:\Users\86176\Downloads\mingw64\bin\ar.exe qc CMakeFiles\multi_sensor_mot.dir/objects.a @CMakeFiles\multi_sensor_mot.dir\objects1.rsp
+C:\Users\86176\Downloads\mingw64\bin\c++.exe -Wl,--whole-archive CMakeFiles\multi_sensor_mot.dir/objects.a -Wl,--no-whole-archive -o multi_sensor_mot.exe -Wl,--out-implib,libmulti_sensor_mot.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\multi_sensor_mot.dir\linkLibs.rsp

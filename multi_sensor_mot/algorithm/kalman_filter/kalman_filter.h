@@ -25,6 +25,12 @@ class KalmanFilter {
     void setQ(Eigen::MatrixXd Q_in){
       Q_ = Q_in;
     }
+    void setH(Eigen::MatrixXd H_in){
+      H_ = H_in;
+    }
+    void setR(Eigen::MatrixXd R_in){
+      R_ = R_in;
+    }
     void pridection(){
       x_ = F_ * x_;
       auto Ft = F_.transpose();
