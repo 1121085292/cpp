@@ -89,5 +89,7 @@
         "netfwd": "cpp",
         "timer": "cpp"
     },
-    "cmake.sourceDirectory": "D:/c++/eigen_test"
+    "cmake.sourceDirectory": "D:/c++/eigen_test",
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false
 }

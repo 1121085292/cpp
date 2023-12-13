@@ -5,7 +5,7 @@
 class KalmanFilter {
   public:
     KalmanFilter() : is_initialized_(false) {}
-    ~KalmanFilter();
+    ~KalmanFilter() {};
     Eigen::VectorXd getX() const {
       return x_;
     }

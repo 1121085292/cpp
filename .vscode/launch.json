@@ -8,7 +8,7 @@
       "name": "(gdb) Launch",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/test/build/test.exe",
+      "program": "${workspaceFolder}/multi_sensor_mot/build/multi_sensor_mot.exe",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${fileDirname}",

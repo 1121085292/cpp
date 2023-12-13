@@ -13,4 +13,8 @@ public:
   Eigen::VectorXd raw_measurements_;
 };
 
-bool getLidarData(double x, double y, size_t ts);
+
+/// @brief 
+/// @param measurement_data 
+/// @return 
+bool getLidarData(std::vector<MeasurementPackage>& measurement_data);

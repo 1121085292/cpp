@@ -152,6 +152,30 @@ interface/sensor_measurement.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/interface/sensor_measurement.cc.s
 .PHONY : interface/sensor_measurement.cc.s
 
+main.obj: main.cc.obj
+.PHONY : main.obj
+
+# target to build an object file
+main.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/main.cc.obj
+.PHONY : main.cc.obj
+
+main.i: main.cc.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/main.cc.i
+.PHONY : main.cc.i
+
+main.s: main.cc.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/main.cc.s
+.PHONY : main.cc.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +188,9 @@ help:
 	@echo ... interface/sensor_measurement.obj
 	@echo ... interface/sensor_measurement.i
 	@echo ... interface/sensor_measurement.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 
