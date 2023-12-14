@@ -37,3 +37,19 @@ bool getLidarData(std::vector<MeasurementPackage>& measurement_data){
   }
   return true;
 }
+
+bool writeCSV(const std::string &filename, std::vector<Eigen::VectorXd> &vectors)
+{ 
+  std::ofstream file(filename);
+  if (!file.is_open())
+  {
+    std::cout << "file open failed" << std::endl;
+    return false;
+  } else {
+    for(const auto& vector : vectors){
+      file << vector(0) << "," << vector(1) << std::endl;
+    }
+  }
+  file.close();
+  return true;
+}

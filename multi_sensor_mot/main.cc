@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 
 #include "algorithm/kalman_filter/kalman_filter.h"
 #include "interface/sensor_measurement.h"
@@ -8,6 +9,7 @@ int main(){
   KalmanFilter kf;
   std::vector<MeasurementPackage> measurement_data;
 
+  std::vector<Eigen::VectorXd> x_state;
   // P
   Eigen::MatrixXd P_in(4, 4);
   P_in << 1.0 ,0.0, 0.0, 0.0,
@@ -58,7 +60,12 @@ int main(){
     kf.measurementUpdate(z);
     // state x
     Eigen::VectorXd x_out = kf.getX();
-    std::cout << "kf output state x:" << x_out(0) << ","
-            << "y: " << x_out(1) <<std::endl;
+    // std::cout << "kf output state x:" << x_out(0) << ","
+    //         << "y: " << x_out(1) <<std::endl;
+    x_state.push_back(x_out);
   }
+  if(writeCSV("kf_out.csv", x_state)){
+    std::cout << "Write OK" << std::endl;
+  }
+  return 0;
 }
