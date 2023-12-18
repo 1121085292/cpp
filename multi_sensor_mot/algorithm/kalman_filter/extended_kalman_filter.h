@@ -1,5 +1,5 @@
 #pragma once
-
+#include <iostream>
 #include <Eigen/Dense>
 
 class ExtendedKalmanFilter {
@@ -7,6 +7,10 @@ class ExtendedKalmanFilter {
     ExtendedKalmanFilter() : is_initialized_(false) {}
 
     ~ExtendedKalmanFilter() {}
+
+    Eigen::VectorXd getX() const {
+        return x_;
+    }
 
     void initialization(Eigen::VectorXd x_in){
       x_ = x_in;

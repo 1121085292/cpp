@@ -19,4 +19,6 @@ public:
 /// @return 
 bool getLidarData(std::vector<MeasurementPackage>& measurement_data);
 
+bool getRadarData(std::vector<MeasurementPackage>& measurement_data);
+
 bool writeCSV(const std::string& filename, std::vector<Eigen::VectorXd>& vec);

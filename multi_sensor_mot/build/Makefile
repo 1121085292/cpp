@@ -128,6 +128,30 @@ multi_sensor_mot/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/build
 .PHONY : multi_sensor_mot/fast
 
+algorithm/kalman_filter/extended_kalman_filter.obj: algorithm/kalman_filter/extended_kalman_filter.cc.obj
+.PHONY : algorithm/kalman_filter/extended_kalman_filter.obj
+
+# target to build an object file
+algorithm/kalman_filter/extended_kalman_filter.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/extended_kalman_filter.cc.obj
+.PHONY : algorithm/kalman_filter/extended_kalman_filter.cc.obj
+
+algorithm/kalman_filter/extended_kalman_filter.i: algorithm/kalman_filter/extended_kalman_filter.cc.i
+.PHONY : algorithm/kalman_filter/extended_kalman_filter.i
+
+# target to preprocess a source file
+algorithm/kalman_filter/extended_kalman_filter.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/extended_kalman_filter.cc.i
+.PHONY : algorithm/kalman_filter/extended_kalman_filter.cc.i
+
+algorithm/kalman_filter/extended_kalman_filter.s: algorithm/kalman_filter/extended_kalman_filter.cc.s
+.PHONY : algorithm/kalman_filter/extended_kalman_filter.s
+
+# target to generate assembly for a file
+algorithm/kalman_filter/extended_kalman_filter.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/extended_kalman_filter.cc.s
+.PHONY : algorithm/kalman_filter/extended_kalman_filter.cc.s
+
 interface/sensor_measurement.obj: interface/sensor_measurement.cc.obj
 .PHONY : interface/sensor_measurement.obj
 
@@ -176,6 +200,30 @@ main.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/main.cc.s
 .PHONY : main.cc.s
 
+test.obj: test.cc.obj
+.PHONY : test.obj
+
+# target to build an object file
+test.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/test.cc.obj
+.PHONY : test.cc.obj
+
+test.i: test.cc.i
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/test.cc.i
+.PHONY : test.cc.i
+
+test.s: test.cc.s
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/test.cc.s
+.PHONY : test.cc.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +233,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... multi_sensor_mot
+	@echo ... algorithm/kalman_filter/extended_kalman_filter.obj
+	@echo ... algorithm/kalman_filter/extended_kalman_filter.i
+	@echo ... algorithm/kalman_filter/extended_kalman_filter.s
 	@echo ... interface/sensor_measurement.obj
 	@echo ... interface/sensor_measurement.i
 	@echo ... interface/sensor_measurement.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 

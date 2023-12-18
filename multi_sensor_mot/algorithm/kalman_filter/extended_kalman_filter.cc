@@ -13,14 +13,15 @@ Eigen::MatrixXd ExtendedKalmanFilter::calculateJacobian()
   float c2 = std::sqrt(c1);
   float c3 = c1 * c2;
   float c4 = vx * y - vy * x;
+  float c5 = vy * x - vx * y;
 
   if(std::fabs(c1) < 0.001){
     return Hj;
   }
 
-  Hj << x/c2, y/c2, 0, 0,
-       -y/c1, x/c1, 0, 0,
-       y*c4/c3, -x*c4/c3, x/c2, y/c2;
+  Hj << (x/c2), (y/c2), 0, 0,
+       -(y/c1), (x/c1), 0, 0,
+       y*c4/c3, x*c5/c3, x/c2, y/c2;
   return Hj;
 }
 
@@ -38,7 +39,8 @@ void ExtendedKalmanFilter::measurementUpdate(const Eigen::VectorXd& z)
   double rho_dot = (x_(0) * x_(2) + x_(1) * x_(3)) / rho;
   Eigen::VectorXd h(3, 1);
   h << rho, theta, rho_dot;
-  
+  std::cout << "h: " << h << std::endl;
+
   Eigen::VectorXd y = z - h;
   // s = h * p * ht + R
   H_ = calculateJacobian();
