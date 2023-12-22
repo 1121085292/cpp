@@ -128,53 +128,77 @@ multi_sensor_mot/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/build
 .PHONY : multi_sensor_mot/fast
 
-algorithm/kalman_filter/extended_kalman_filter.obj: algorithm/kalman_filter/extended_kalman_filter.cc.obj
-.PHONY : algorithm/kalman_filter/extended_kalman_filter.obj
+algorithm/kalman_filter/EKF.obj: algorithm/kalman_filter/EKF.cc.obj
+.PHONY : algorithm/kalman_filter/EKF.obj
 
 # target to build an object file
-algorithm/kalman_filter/extended_kalman_filter.cc.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/extended_kalman_filter.cc.obj
-.PHONY : algorithm/kalman_filter/extended_kalman_filter.cc.obj
+algorithm/kalman_filter/EKF.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/EKF.cc.obj
+.PHONY : algorithm/kalman_filter/EKF.cc.obj
 
-algorithm/kalman_filter/extended_kalman_filter.i: algorithm/kalman_filter/extended_kalman_filter.cc.i
-.PHONY : algorithm/kalman_filter/extended_kalman_filter.i
+algorithm/kalman_filter/EKF.i: algorithm/kalman_filter/EKF.cc.i
+.PHONY : algorithm/kalman_filter/EKF.i
 
 # target to preprocess a source file
-algorithm/kalman_filter/extended_kalman_filter.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/extended_kalman_filter.cc.i
-.PHONY : algorithm/kalman_filter/extended_kalman_filter.cc.i
+algorithm/kalman_filter/EKF.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/EKF.cc.i
+.PHONY : algorithm/kalman_filter/EKF.cc.i
 
-algorithm/kalman_filter/extended_kalman_filter.s: algorithm/kalman_filter/extended_kalman_filter.cc.s
-.PHONY : algorithm/kalman_filter/extended_kalman_filter.s
+algorithm/kalman_filter/EKF.s: algorithm/kalman_filter/EKF.cc.s
+.PHONY : algorithm/kalman_filter/EKF.s
 
 # target to generate assembly for a file
-algorithm/kalman_filter/extended_kalman_filter.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/extended_kalman_filter.cc.s
-.PHONY : algorithm/kalman_filter/extended_kalman_filter.cc.s
+algorithm/kalman_filter/EKF.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/EKF.cc.s
+.PHONY : algorithm/kalman_filter/EKF.cc.s
 
-interface/sensor_measurement.obj: interface/sensor_measurement.cc.obj
-.PHONY : interface/sensor_measurement.obj
+algorithm/kalman_filter/kalman_filter.obj: algorithm/kalman_filter/kalman_filter.cc.obj
+.PHONY : algorithm/kalman_filter/kalman_filter.obj
 
 # target to build an object file
-interface/sensor_measurement.cc.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/interface/sensor_measurement.cc.obj
-.PHONY : interface/sensor_measurement.cc.obj
+algorithm/kalman_filter/kalman_filter.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/kalman_filter.cc.obj
+.PHONY : algorithm/kalman_filter/kalman_filter.cc.obj
 
-interface/sensor_measurement.i: interface/sensor_measurement.cc.i
-.PHONY : interface/sensor_measurement.i
+algorithm/kalman_filter/kalman_filter.i: algorithm/kalman_filter/kalman_filter.cc.i
+.PHONY : algorithm/kalman_filter/kalman_filter.i
 
 # target to preprocess a source file
-interface/sensor_measurement.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/interface/sensor_measurement.cc.i
-.PHONY : interface/sensor_measurement.cc.i
+algorithm/kalman_filter/kalman_filter.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/kalman_filter.cc.i
+.PHONY : algorithm/kalman_filter/kalman_filter.cc.i
 
-interface/sensor_measurement.s: interface/sensor_measurement.cc.s
-.PHONY : interface/sensor_measurement.s
+algorithm/kalman_filter/kalman_filter.s: algorithm/kalman_filter/kalman_filter.cc.s
+.PHONY : algorithm/kalman_filter/kalman_filter.s
 
 # target to generate assembly for a file
-interface/sensor_measurement.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/interface/sensor_measurement.cc.s
-.PHONY : interface/sensor_measurement.cc.s
+algorithm/kalman_filter/kalman_filter.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/kalman_filter.cc.s
+.PHONY : algorithm/kalman_filter/kalman_filter.cc.s
+
+fusion_system/motion_fusion/motion_fusion.obj: fusion_system/motion_fusion/motion_fusion.cc.obj
+.PHONY : fusion_system/motion_fusion/motion_fusion.obj
+
+# target to build an object file
+fusion_system/motion_fusion/motion_fusion.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/fusion_system/motion_fusion/motion_fusion.cc.obj
+.PHONY : fusion_system/motion_fusion/motion_fusion.cc.obj
+
+fusion_system/motion_fusion/motion_fusion.i: fusion_system/motion_fusion/motion_fusion.cc.i
+.PHONY : fusion_system/motion_fusion/motion_fusion.i
+
+# target to preprocess a source file
+fusion_system/motion_fusion/motion_fusion.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/fusion_system/motion_fusion/motion_fusion.cc.i
+.PHONY : fusion_system/motion_fusion/motion_fusion.cc.i
+
+fusion_system/motion_fusion/motion_fusion.s: fusion_system/motion_fusion/motion_fusion.cc.s
+.PHONY : fusion_system/motion_fusion/motion_fusion.s
+
+# target to generate assembly for a file
+fusion_system/motion_fusion/motion_fusion.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/fusion_system/motion_fusion/motion_fusion.cc.s
+.PHONY : fusion_system/motion_fusion/motion_fusion.cc.s
 
 main.obj: main.cc.obj
 .PHONY : main.obj
@@ -199,6 +223,30 @@ main.s: main.cc.s
 main.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/main.cc.s
 .PHONY : main.cc.s
+
+measurement/sensor_measurement.obj: measurement/sensor_measurement.cc.obj
+.PHONY : measurement/sensor_measurement.obj
+
+# target to build an object file
+measurement/sensor_measurement.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/measurement/sensor_measurement.cc.obj
+.PHONY : measurement/sensor_measurement.cc.obj
+
+measurement/sensor_measurement.i: measurement/sensor_measurement.cc.i
+.PHONY : measurement/sensor_measurement.i
+
+# target to preprocess a source file
+measurement/sensor_measurement.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/measurement/sensor_measurement.cc.i
+.PHONY : measurement/sensor_measurement.cc.i
+
+measurement/sensor_measurement.s: measurement/sensor_measurement.cc.s
+.PHONY : measurement/sensor_measurement.s
+
+# target to generate assembly for a file
+measurement/sensor_measurement.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\multi_sensor_mot.dir\build.make CMakeFiles/multi_sensor_mot.dir/measurement/sensor_measurement.cc.s
+.PHONY : measurement/sensor_measurement.cc.s
 
 test.obj: test.cc.obj
 .PHONY : test.obj
@@ -233,15 +281,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... multi_sensor_mot
-	@echo ... algorithm/kalman_filter/extended_kalman_filter.obj
-	@echo ... algorithm/kalman_filter/extended_kalman_filter.i
-	@echo ... algorithm/kalman_filter/extended_kalman_filter.s
-	@echo ... interface/sensor_measurement.obj
-	@echo ... interface/sensor_measurement.i
-	@echo ... interface/sensor_measurement.s
+	@echo ... algorithm/kalman_filter/EKF.obj
+	@echo ... algorithm/kalman_filter/EKF.i
+	@echo ... algorithm/kalman_filter/EKF.s
+	@echo ... algorithm/kalman_filter/kalman_filter.obj
+	@echo ... algorithm/kalman_filter/kalman_filter.i
+	@echo ... algorithm/kalman_filter/kalman_filter.s
+	@echo ... fusion_system/motion_fusion/motion_fusion.obj
+	@echo ... fusion_system/motion_fusion/motion_fusion.i
+	@echo ... fusion_system/motion_fusion/motion_fusion.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... measurement/sensor_measurement.obj
+	@echo ... measurement/sensor_measurement.i
+	@echo ... measurement/sensor_measurement.s
 	@echo ... test.obj
 	@echo ... test.i
 	@echo ... test.s

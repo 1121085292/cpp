@@ -98,55 +98,89 @@ CMakeFiles/multi_sensor_mot.dir/test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/multi_sensor_mot.dir/test.cc.s"
 	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c++\multi_sensor_mot\test.cc -o CMakeFiles\multi_sensor_mot.dir\test.cc.s
 
-CMakeFiles/multi_sensor_mot.dir/interface/sensor_measurement.cc.obj: CMakeFiles/multi_sensor_mot.dir/flags.make
-CMakeFiles/multi_sensor_mot.dir/interface/sensor_measurement.cc.obj: CMakeFiles/multi_sensor_mot.dir/includes_CXX.rsp
-CMakeFiles/multi_sensor_mot.dir/interface/sensor_measurement.cc.obj: D:/c++/multi_sensor_mot/interface/sensor_measurement.cc
-CMakeFiles/multi_sensor_mot.dir/interface/sensor_measurement.cc.obj: CMakeFiles/multi_sensor_mot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\c++\multi_sensor_mot\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/multi_sensor_mot.dir/interface/sensor_measurement.cc.obj"
-	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/multi_sensor_mot.dir/interface/sensor_measurement.cc.obj -MF CMakeFiles\multi_sensor_mot.dir\interface\sensor_measurement.cc.obj.d -o CMakeFiles\multi_sensor_mot.dir\interface\sensor_measurement.cc.obj -c D:\c++\multi_sensor_mot\interface\sensor_measurement.cc
+CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/EKF.cc.obj: CMakeFiles/multi_sensor_mot.dir/flags.make
+CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/EKF.cc.obj: CMakeFiles/multi_sensor_mot.dir/includes_CXX.rsp
+CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/EKF.cc.obj: D:/c++/multi_sensor_mot/algorithm/kalman_filter/EKF.cc
+CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/EKF.cc.obj: CMakeFiles/multi_sensor_mot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\c++\multi_sensor_mot\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/EKF.cc.obj"
+	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/EKF.cc.obj -MF CMakeFiles\multi_sensor_mot.dir\algorithm\kalman_filter\EKF.cc.obj.d -o CMakeFiles\multi_sensor_mot.dir\algorithm\kalman_filter\EKF.cc.obj -c D:\c++\multi_sensor_mot\algorithm\kalman_filter\EKF.cc
 
-CMakeFiles/multi_sensor_mot.dir/interface/sensor_measurement.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/multi_sensor_mot.dir/interface/sensor_measurement.cc.i"
-	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c++\multi_sensor_mot\interface\sensor_measurement.cc > CMakeFiles\multi_sensor_mot.dir\interface\sensor_measurement.cc.i
+CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/EKF.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/EKF.cc.i"
+	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c++\multi_sensor_mot\algorithm\kalman_filter\EKF.cc > CMakeFiles\multi_sensor_mot.dir\algorithm\kalman_filter\EKF.cc.i
 
-CMakeFiles/multi_sensor_mot.dir/interface/sensor_measurement.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/multi_sensor_mot.dir/interface/sensor_measurement.cc.s"
-	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c++\multi_sensor_mot\interface\sensor_measurement.cc -o CMakeFiles\multi_sensor_mot.dir\interface\sensor_measurement.cc.s
+CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/EKF.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/EKF.cc.s"
+	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c++\multi_sensor_mot\algorithm\kalman_filter\EKF.cc -o CMakeFiles\multi_sensor_mot.dir\algorithm\kalman_filter\EKF.cc.s
 
-CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/extended_kalman_filter.cc.obj: CMakeFiles/multi_sensor_mot.dir/flags.make
-CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/extended_kalman_filter.cc.obj: CMakeFiles/multi_sensor_mot.dir/includes_CXX.rsp
-CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/extended_kalman_filter.cc.obj: D:/c++/multi_sensor_mot/algorithm/kalman_filter/extended_kalman_filter.cc
-CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/extended_kalman_filter.cc.obj: CMakeFiles/multi_sensor_mot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\c++\multi_sensor_mot\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/extended_kalman_filter.cc.obj"
-	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/extended_kalman_filter.cc.obj -MF CMakeFiles\multi_sensor_mot.dir\algorithm\kalman_filter\extended_kalman_filter.cc.obj.d -o CMakeFiles\multi_sensor_mot.dir\algorithm\kalman_filter\extended_kalman_filter.cc.obj -c D:\c++\multi_sensor_mot\algorithm\kalman_filter\extended_kalman_filter.cc
+CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/kalman_filter.cc.obj: CMakeFiles/multi_sensor_mot.dir/flags.make
+CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/kalman_filter.cc.obj: CMakeFiles/multi_sensor_mot.dir/includes_CXX.rsp
+CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/kalman_filter.cc.obj: D:/c++/multi_sensor_mot/algorithm/kalman_filter/kalman_filter.cc
+CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/kalman_filter.cc.obj: CMakeFiles/multi_sensor_mot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\c++\multi_sensor_mot\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/kalman_filter.cc.obj"
+	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/kalman_filter.cc.obj -MF CMakeFiles\multi_sensor_mot.dir\algorithm\kalman_filter\kalman_filter.cc.obj.d -o CMakeFiles\multi_sensor_mot.dir\algorithm\kalman_filter\kalman_filter.cc.obj -c D:\c++\multi_sensor_mot\algorithm\kalman_filter\kalman_filter.cc
 
-CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/extended_kalman_filter.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/extended_kalman_filter.cc.i"
-	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c++\multi_sensor_mot\algorithm\kalman_filter\extended_kalman_filter.cc > CMakeFiles\multi_sensor_mot.dir\algorithm\kalman_filter\extended_kalman_filter.cc.i
+CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/kalman_filter.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/kalman_filter.cc.i"
+	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c++\multi_sensor_mot\algorithm\kalman_filter\kalman_filter.cc > CMakeFiles\multi_sensor_mot.dir\algorithm\kalman_filter\kalman_filter.cc.i
 
-CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/extended_kalman_filter.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/extended_kalman_filter.cc.s"
-	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c++\multi_sensor_mot\algorithm\kalman_filter\extended_kalman_filter.cc -o CMakeFiles\multi_sensor_mot.dir\algorithm\kalman_filter\extended_kalman_filter.cc.s
+CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/kalman_filter.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/kalman_filter.cc.s"
+	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c++\multi_sensor_mot\algorithm\kalman_filter\kalman_filter.cc -o CMakeFiles\multi_sensor_mot.dir\algorithm\kalman_filter\kalman_filter.cc.s
+
+CMakeFiles/multi_sensor_mot.dir/measurement/sensor_measurement.cc.obj: CMakeFiles/multi_sensor_mot.dir/flags.make
+CMakeFiles/multi_sensor_mot.dir/measurement/sensor_measurement.cc.obj: CMakeFiles/multi_sensor_mot.dir/includes_CXX.rsp
+CMakeFiles/multi_sensor_mot.dir/measurement/sensor_measurement.cc.obj: D:/c++/multi_sensor_mot/measurement/sensor_measurement.cc
+CMakeFiles/multi_sensor_mot.dir/measurement/sensor_measurement.cc.obj: CMakeFiles/multi_sensor_mot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\c++\multi_sensor_mot\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/multi_sensor_mot.dir/measurement/sensor_measurement.cc.obj"
+	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/multi_sensor_mot.dir/measurement/sensor_measurement.cc.obj -MF CMakeFiles\multi_sensor_mot.dir\measurement\sensor_measurement.cc.obj.d -o CMakeFiles\multi_sensor_mot.dir\measurement\sensor_measurement.cc.obj -c D:\c++\multi_sensor_mot\measurement\sensor_measurement.cc
+
+CMakeFiles/multi_sensor_mot.dir/measurement/sensor_measurement.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/multi_sensor_mot.dir/measurement/sensor_measurement.cc.i"
+	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c++\multi_sensor_mot\measurement\sensor_measurement.cc > CMakeFiles\multi_sensor_mot.dir\measurement\sensor_measurement.cc.i
+
+CMakeFiles/multi_sensor_mot.dir/measurement/sensor_measurement.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/multi_sensor_mot.dir/measurement/sensor_measurement.cc.s"
+	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c++\multi_sensor_mot\measurement\sensor_measurement.cc -o CMakeFiles\multi_sensor_mot.dir\measurement\sensor_measurement.cc.s
+
+CMakeFiles/multi_sensor_mot.dir/fusion_system/motion_fusion/motion_fusion.cc.obj: CMakeFiles/multi_sensor_mot.dir/flags.make
+CMakeFiles/multi_sensor_mot.dir/fusion_system/motion_fusion/motion_fusion.cc.obj: CMakeFiles/multi_sensor_mot.dir/includes_CXX.rsp
+CMakeFiles/multi_sensor_mot.dir/fusion_system/motion_fusion/motion_fusion.cc.obj: D:/c++/multi_sensor_mot/fusion_system/motion_fusion/motion_fusion.cc
+CMakeFiles/multi_sensor_mot.dir/fusion_system/motion_fusion/motion_fusion.cc.obj: CMakeFiles/multi_sensor_mot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\c++\multi_sensor_mot\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/multi_sensor_mot.dir/fusion_system/motion_fusion/motion_fusion.cc.obj"
+	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/multi_sensor_mot.dir/fusion_system/motion_fusion/motion_fusion.cc.obj -MF CMakeFiles\multi_sensor_mot.dir\fusion_system\motion_fusion\motion_fusion.cc.obj.d -o CMakeFiles\multi_sensor_mot.dir\fusion_system\motion_fusion\motion_fusion.cc.obj -c D:\c++\multi_sensor_mot\fusion_system\motion_fusion\motion_fusion.cc
+
+CMakeFiles/multi_sensor_mot.dir/fusion_system/motion_fusion/motion_fusion.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/multi_sensor_mot.dir/fusion_system/motion_fusion/motion_fusion.cc.i"
+	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c++\multi_sensor_mot\fusion_system\motion_fusion\motion_fusion.cc > CMakeFiles\multi_sensor_mot.dir\fusion_system\motion_fusion\motion_fusion.cc.i
+
+CMakeFiles/multi_sensor_mot.dir/fusion_system/motion_fusion/motion_fusion.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/multi_sensor_mot.dir/fusion_system/motion_fusion/motion_fusion.cc.s"
+	C:\Users\86176\Downloads\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c++\multi_sensor_mot\fusion_system\motion_fusion\motion_fusion.cc -o CMakeFiles\multi_sensor_mot.dir\fusion_system\motion_fusion\motion_fusion.cc.s
 
 # Object files for target multi_sensor_mot
 multi_sensor_mot_OBJECTS = \
 "CMakeFiles/multi_sensor_mot.dir/main.cc.obj" \
 "CMakeFiles/multi_sensor_mot.dir/test.cc.obj" \
-"CMakeFiles/multi_sensor_mot.dir/interface/sensor_measurement.cc.obj" \
-"CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/extended_kalman_filter.cc.obj"
+"CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/EKF.cc.obj" \
+"CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/kalman_filter.cc.obj" \
+"CMakeFiles/multi_sensor_mot.dir/measurement/sensor_measurement.cc.obj" \
+"CMakeFiles/multi_sensor_mot.dir/fusion_system/motion_fusion/motion_fusion.cc.obj"
 
 # External object files for target multi_sensor_mot
 multi_sensor_mot_EXTERNAL_OBJECTS =
 
 multi_sensor_mot.exe: CMakeFiles/multi_sensor_mot.dir/main.cc.obj
 multi_sensor_mot.exe: CMakeFiles/multi_sensor_mot.dir/test.cc.obj
-multi_sensor_mot.exe: CMakeFiles/multi_sensor_mot.dir/interface/sensor_measurement.cc.obj
-multi_sensor_mot.exe: CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/extended_kalman_filter.cc.obj
+multi_sensor_mot.exe: CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/EKF.cc.obj
+multi_sensor_mot.exe: CMakeFiles/multi_sensor_mot.dir/algorithm/kalman_filter/kalman_filter.cc.obj
+multi_sensor_mot.exe: CMakeFiles/multi_sensor_mot.dir/measurement/sensor_measurement.cc.obj
+multi_sensor_mot.exe: CMakeFiles/multi_sensor_mot.dir/fusion_system/motion_fusion/motion_fusion.cc.obj
 multi_sensor_mot.exe: CMakeFiles/multi_sensor_mot.dir/build.make
 multi_sensor_mot.exe: CMakeFiles/multi_sensor_mot.dir/linkLibs.rsp
 multi_sensor_mot.exe: CMakeFiles/multi_sensor_mot.dir/objects1.rsp
 multi_sensor_mot.exe: CMakeFiles/multi_sensor_mot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\c++\multi_sensor_mot\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable multi_sensor_mot.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\c++\multi_sensor_mot\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable multi_sensor_mot.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\multi_sensor_mot.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

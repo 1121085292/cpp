@@ -240,15 +240,6 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-kf_BINARY_DIR:STATIC=D:/c++/multi_sensor_mot/build
-
-//Value Computed by CMake
-kf_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-kf_SOURCE_DIR:STATIC=D:/c++/multi_sensor_mot
-
-//Value Computed by CMake
 multi_sensor_mot_BINARY_DIR:STATIC=D:/c++/multi_sensor_mot/build
 
 //Value Computed by CMake
