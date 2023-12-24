@@ -4,12 +4,15 @@ void fusion::KalmanFilter::predict()
 {
   // x = f * x + u
   x_ = F_ * x_;
+  // std::cout << "x_: " << x_ << std::endl;
   // p = f * p * ft + q
   P_ = F_ * P_ * F_.transpose() + Q_;
+  // std::cout << "P_: " << P_ << std::endl;
 }
 
 void fusion::KalmanFilter::updateKF(const Eigen::VectorXd &z)
 {
+  // std::cout << "H_: " << H_ << std::endl;
   Eigen::VectorXd y = z - H_ * x_;
   Eigen::MatrixXd s = H_ * P_ * H_.transpose() + R_;
   Eigen::MatrixXd k = P_ * H_.transpose() * s.inverse();
@@ -21,6 +24,7 @@ void fusion::KalmanFilter::updateKF(const Eigen::VectorXd &z)
 void fusion::KalmanFilter::updateEKF(const Eigen::VectorXd &z)
 {
   // hx
+
   double c1 = x_(0) * x_(0) + x_(1) * x_(1);
   double c2 = std::sqrt(c1);
   double c3 = x_(0) * x_(2) + x_(1) * x_(3);
@@ -33,6 +37,7 @@ void fusion::KalmanFilter::updateEKF(const Eigen::VectorXd &z)
   Eigen::VectorXd y = z - hx;
 
   H_ = calculateJacobian();
+  // std::cout << "H_: " << H_ << std::endl;
 
   Eigen::MatrixXd s = H_ * P_ * H_.transpose() + R_;
   Eigen::MatrixXd k = P_ * H_.transpose() * s.inverse();

@@ -24,8 +24,8 @@ class MotionFusion {
     std::vector<MeasurementPackage> measurement_data_;
     KalmanFilter kf_;
     Eigen::MatrixXd lidar_R_;
+    Eigen::MatrixXd lidra_H_;
     Eigen::MatrixXd radar_R_;
-    Eigen::MatrixXd H_in_;
     std::vector<Eigen::VectorXd> x_state_;
 
 }; 
