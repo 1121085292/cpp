@@ -73,6 +73,10 @@ BaseTimer* getTimer(BaseTimer::TimerType type){
   }
 }
 
+// 8.异常
+// 9.构造和析构不调用虚函数
+// 10.令 operator=返回一个指向*this(自己)的引用
+
 int main(){
   // 7.为多态基类声明虚析构函数
   // BaseTimer* timer = getTimer(BaseTimer::TimerType::Atomic);
