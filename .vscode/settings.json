@@ -95,7 +95,8 @@
       "kroneckerproduct": "cpp",
       "numericaldiff": "cpp",
       "specialfunctions": "cpp",
-      "splines": "cpp"
+      "splines": "cpp",
+      "ranges": "cpp"
     },
     "cmake.sourceDirectory": "D:/c++/eigen_test",
     "editor.tabSize": 2,
